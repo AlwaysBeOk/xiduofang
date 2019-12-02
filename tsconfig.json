@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": "src",
     "rootDir": "src",
-    "outDir": "build/dist",
+    "outDir": "docs/dist",
     "target": "es5",
     "lib": [
       "dom",
@@ -23,7 +23,8 @@
     "noEmit": true,
     "jsx": "preserve"
   },
-  "exclude": ["node_modules", "dist", "build", "mock"],
+  "exclude": ["node_modules", "dist",
+    "docs", "mock"],
   "include": [
     "src"
   ],
